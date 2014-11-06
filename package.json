@@ -2,7 +2,7 @@
   "name": "lz-node-utils",
   "version": "1.0.0",
   "description": "Useful utility functions for node",
-  "main": "index.js",
+  "main": "lib/util.js",
   "dependencies": {
     "fs": "^0.0.2",
     "glob": "^4.0.6",
