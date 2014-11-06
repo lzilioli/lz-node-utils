@@ -1,0 +1,22 @@
+{
+  "name": "lz-node-utils",
+  "version": "1.0.0",
+  "description": "Useful utility functions for node",
+  "main": "index.js",
+  "dependencies": {
+    "fs": "^0.0.2",
+    "glob": "^4.0.6",
+    "path": "^0.4.9",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {},
+  "author": "Luke Zilioli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lzilioli/lz-node-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lzilioli/lz-node-utils/issues"
+  },
+  "homepage": "https://github.com/lzilioli/lz-node-utils"
+}
