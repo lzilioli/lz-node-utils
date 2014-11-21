@@ -1,7 +1,7 @@
 {
   "name": "lz-node-utils",
   "version": "1.0.0",
-  "description": "Useful utility functions for node",
+  "description": "Useful utility functions for node.",
   "main": "lib/util.js",
   "dependencies": {
     "fs": "^0.0.2",
@@ -19,7 +19,7 @@
     "load-grunt-config": "^0.16.0",
     "shelljs": "^0.3.0"
   },
-  "author": "Luke Zilioli",
+  "author": "Luke Zilioli <elzee08@gmail.com> (http://lukezilioli.com/)",
   "repository": {
     "type": "git",
     "url": "https://github.com/lzilioli/lz-node-utils.git"
