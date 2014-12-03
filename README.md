@@ -50,6 +50,7 @@ Like path.join, but returns an absolute path to the referenced location.
 ```javascript
 util.pth('grunt/config/file.json'); // returns /path/to/repo/grunt/config/file.json
 util.pth('grunt', 'config', 'file.json'); // also returns /path/to/repo/grunt/config/file.json
+util.pth('grunt/', '/config', '//', '/file.json'); // also returns /path/to/repo/grunt/config/file.json
 ```
 
 ### `util.loadAppSettings(<defaultSettingsPath>, <userSettingsPath>)`
@@ -60,5 +61,5 @@ Arguments default to `config/default-settings.js` and `config/settings.js`, resp
 
 # Version History
 
-v0.1.0 - Initial release
-v0.1.1 - added `util.reqFn`, `util.pth`, and `util.loadAppSettings`
+- v0.1.0 - Initial release
+- v0.1.1 - added `util.reqFn`, `util.pth`, and `util.loadAppSettings`
