@@ -1,9 +1,9 @@
 lz-node-utils
 =============
 
-Useful utility functions for node
+Useful utility functions for node.
 
-## Usage
+# Usage
 
 ```bash
 npm install --save-dev git+http://git@github.com/lzilioli/lz-node-utils.git
@@ -11,9 +11,22 @@ npm install --save-dev git+http://git@github.com/lzilioli/lz-node-utils.git
 
 ```javascript
 var util = require( 'lz-node-utils' );
-// Identical to grunt.file.expand without the grunt dependancy
-util.file.expand( [ /* list of file patterns */ ] );
-// Will check if pathToFile exists, if not, will console.log a message, and return ''
-// if so, returns the file's contents
-util.file.read( pathToFile );
 ```
+
+## Methods
+
+### util.file
+
+The following were taken from [`grunt.file`](https://github.com/gruntjs/grunt/blob/master/lib/grunt/file.js), with the grunt dependancy removed.
+
+- file.expand
+- file.expandMapping
+- file.read
+- file.exists
+- file.readJSON
+- file.readYAML
+- file.mkdir
+
+# Version History
+
+v0.1.0 - Initial release
