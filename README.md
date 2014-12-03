@@ -17,7 +17,7 @@ var util = require( 'lz-node-utils' );
 
 ### `util.file`
 
-The following were taken from [`grunt.file`](https://github.com/gruntjs/grunt/blob/master/lib/grunt/file.js), with the grunt dependancy removed.
+The following were taken from [`grunt.file`](https://github.com/gruntjs/grunt/blob/master/lib/grunt/file.js), with the grunt dependency removed.
 
 - `file.expand`
 - `file.expandMapping`
