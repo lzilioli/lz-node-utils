@@ -68,3 +68,4 @@ Given the contents of a file, return its contents without the YAML front matter.
 - v0.1.0 - Initial release
 - v0.1.1 - added `util.reqFn`, `util.pth`, and `util.loadAppSettings`
 - v0.1.2 - added `util.stripYamlFront`
+- v0.1.4 - added `util.ucwords`

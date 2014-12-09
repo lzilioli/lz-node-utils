@@ -1,6 +1,6 @@
 {
   "name": "lz-node-utils",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Useful utility functions for node.",
   "main": "lib/util.js",
   "dependencies": {
