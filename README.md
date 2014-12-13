@@ -63,9 +63,15 @@ Arguments default to `config/default-settings.js` and `config/settings.js`, resp
 
 Given the contents of a file, return its contents without the YAML front matter.
 
+### `util._deepExtend(_)`
+
+Extends the passed instance of `_` with a deepExtend function, which works like extend, but does so recursively.
+
+
 # Version History
 
 - v0.1.0 - Initial release
 - v0.1.1 - added `util.reqFn`, `util.pth`, and `util.loadAppSettings`
 - v0.1.2 - added `util.stripYamlFront`
 - v0.1.4 - added `util.ucwords`
+- v0.1.5 - added `util._deepExtend`
