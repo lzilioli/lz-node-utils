@@ -75,3 +75,4 @@ Extends the passed instance of `_` with a deepExtend function, which works like 
 - v0.1.2 - added `util.stripYamlFront`
 - v0.1.4 - added `util.ucwords`
 - v0.1.5 - added `util._deepExtend`
+- v0.1.6 - `util.loadAppSettings` now behaves as expected with nested objects
