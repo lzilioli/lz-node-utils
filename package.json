@@ -1,6 +1,6 @@
 {
   "name": "lz-node-utils",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Useful utility functions for node.",
   "main": "lib/util.js",
   "dependencies": {
@@ -9,7 +9,7 @@
     "js-yaml": "^3.2.3",
     "path": "^0.4.9",
     "underscore": "^1.7.0",
-    "yaml-front-matter": "^3.0.1"
+    "yaml-front-matter": "^3.2.3"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
