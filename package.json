@@ -9,7 +9,7 @@
     "js-yaml": "^3.2.3",
     "path": "^0.4.9",
     "underscore": "^1.7.0",
-    "yaml-front-matter": "lzilioli/js-yaml-front-matter#182516d"
+    "yaml-front-matter": "^3.2.3"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
