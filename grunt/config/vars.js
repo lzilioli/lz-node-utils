@@ -5,6 +5,7 @@ module.exports = {
 			'grunt/**/*.js',
 			'tasks/**/*.js',
 			'lib/**/*.js',
+			'test/**/*.js'
 		]
 	}
 };

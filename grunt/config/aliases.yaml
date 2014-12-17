@@ -1,6 +1,7 @@
 js_on_watch:
 - 'jsbeautifier'
 - 'jshint'
+- 'shell:test'
 
 pre-push:
 - 'jshint'
