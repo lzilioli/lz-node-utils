@@ -63,6 +63,10 @@ Returns a function that, when called, will require a module relative to `rootDir
 
 This function relies on `util.path()` under the hood, so please be aware of the disclaimer (above) if using `util.getReqFn()`.
 
+### `util.copyObj(obj [, shallow])`
+
+Return a copy of the passed object. Pass true as the second argument to make the copy shallow. By default, a deep copy will be performed using the `_.deepExtend` function.
+
 ### `util._deepExtend(_)`
 
 Extends the passed instance of `_` with a deepExtend function, which works like extend, but does so recursively.

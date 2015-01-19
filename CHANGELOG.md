@@ -10,3 +10,5 @@ Changelog
 - v0.1.7 ~~upgrade to latest `yaml-front-matter` (with my [pull request](https://github.com/dworthen/js-yaml-front-matter/pull/1)!)~~ This has been unpublished from NPM.
 - v0.1.8 Use my fork of `js-yaml-front-matter`, which npm installs cleanly.
 - v0.1.9 `util.expandSourceFiles`, first unit tests added, first release using grunt release, LICENSE
+- ~~v0.1.10~~ Not published
+- v0.1.11 added `util.copyObj`
