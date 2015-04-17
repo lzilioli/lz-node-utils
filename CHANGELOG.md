@@ -12,3 +12,10 @@ Changelog
 - v0.1.9 `util.expandSourceFiles`, first unit tests added, first release using grunt release, LICENSE
 - ~~v0.1.10~~ Not published
 - v0.1.11 added `util.copyObj`
+
+
+# v0.2.0
+
+- consume `shared-grunt-config`
+- write tests for, and fix bugs in `loadAppSettings`
+- full version bump due to change in `pth` and uncertaintity with compatibaility breakage

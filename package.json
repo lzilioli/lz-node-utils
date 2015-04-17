@@ -10,17 +10,9 @@
     "yaml-front-matter": "git+https://github.com/lzilioli/js-yaml-front-matter#182516d"
   },
   "devDependencies": {
-    "chai": "^1.10.0",
-    "comparejs": "^0.1.2",
+    "chai": "^2.2.0",
     "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-jsbeautifier": "^0.2.7",
-    "grunt-release": "^0.9.0",
-    "grunt-shell": "^1.1.1",
-    "jshint-stylish": "^1.0.0",
-    "load-grunt-config": "^0.16.0",
-    "mocha": "^2.0.1",
+    "shared-grunt-config": "lzilioli/shared-grunt-config#43ab8b9",
     "shelljs": "^0.3.0"
   },
   "author": "Luke Zilioli <elzee08@gmail.com> (http://lukezilioli.com/)",
