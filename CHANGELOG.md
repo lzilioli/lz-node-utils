@@ -19,3 +19,7 @@ Changelog
 - consume `shared-grunt-config`
 - write tests for, and fix bugs in `loadAppSettings`
 - full version bump due to change in `pth` and uncertaintity with compatibaility breakage
+
+# v0.2.1
+
+- update `expandSourceFiles` to invoke `path.resolve` rather than `path.join`.
