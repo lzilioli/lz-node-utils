@@ -23,3 +23,7 @@ Changelog
 # v0.2.1
 
 - update `expandSourceFiles` to invoke `path.resolve` rather than `path.join`.
+
+# v0.2.2
+
+- Lint the JS
